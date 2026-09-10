@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+.pnpm-store
+.pnpm-debug.log*
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables & secrets (CRITICAL: NEVER COMMIT)
+.env
+.env*.local
+.env.development
+.env.production
+.env.test
+
+# Logs & debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+coverage/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+*.tmp
+.vscode/
+.idea/
+
+# Scratch & unrelated files
+*.docx
+experiment_screenshots/
+test.html
